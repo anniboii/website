@@ -22,7 +22,7 @@ export function Contact() {
     e.preventDefault();
 
     const response = await fetch(
-      "https://formspree.io/f/xdkogabc",
+      "https://formspree.io/f/xnjkajnn",
       {
         method: "POST",
         headers: {
