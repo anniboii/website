@@ -142,7 +142,7 @@ export function Hero() {
                 className="flex items-center gap-2 px-5 py-2.5 rounded-lg text-sm font-medium transition-all duration-200 hover:opacity-90 hover:scale-[1.02]"
                 style={{ background: "var(--accent)", color: "#0A0A0A" }}
               >
-                View Journey <ArrowRight size={15} />
+                Explore My Work <ArrowRight size={15} />
               </Link>
               <Link
                 href="#contact"
