@@ -18,10 +18,28 @@ export function Contact() {
   const [form, setForm] = useState({ name: "", email: "", message: "" });
   const [sent, setSent] = useState(false);
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
-    // TODO: Wire up to your preferred form handler (Formspree, Resend, etc.)
-    setSent(true);
+
+    const response = await fetch(
+      "https://formspree.io/f/xdkogabc",
+      {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify(form),
+      }
+    );
+
+    if (response.ok) {
+      setSent(true);
+      setForm({
+        name: "",
+        email: "",
+        message: "",
+      });
+    }
   };
 
   return (

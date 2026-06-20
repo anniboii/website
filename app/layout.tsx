@@ -9,7 +9,7 @@ import { siteConfig } from "@/content/data";
 const inter = Inter({ subsets: ["latin"], variable: "--font-sans", display: "swap" });
 
 export const metadata: Metadata = {
-  title: { default: `${siteConfig.name} — Engineer, Researcher, Creator`, template: `%s | ${siteConfig.name}` },
+  title: { default: `${siteConfig.name} - Engineer, Researcher, Creator`, template: `%s | ${siteConfig.name}` },
   description: siteConfig.description,
   keywords: ["IIT Bombay", "Mechanical Engineering", "FEM", "Meesho", "Content Creator", "SARC"],
   authors: [{ name: siteConfig.name }],
