@@ -291,7 +291,7 @@ export const leadership = {
 export const creatorContent = {
   youtube: {
     handle: "@aniruddh-goyal",
-    subscribers: "36K+",
+    subscribers: "35K+",
     description:
       "Sharing honest insights on IIT Bombay, JEE Prep placements, internships, student life, and personal growth through long-form content and storytelling.",
     highlights: [
@@ -302,7 +302,7 @@ export const creatorContent = {
     url: "https://youtu.be/eW1W4gtVCNM?si=fF_PHYh57nUGUYhh",
 
     featuredVideoId: "",
-    thumbnail: "/images/youtube.png",
+    thumbnail: "/images/youtubes.png",
   },
 
   joshTalks: {
@@ -321,7 +321,7 @@ export const creatorContent = {
     appleMusicUrl: "https://music.apple.com/in/album/behtar-hoga/6770652959?i=6770652960",
 
     trackName: "Behtar Hoga",
-    thumbnail: "/images/behtarhoga.png",
+    thumbnail: "/images/songs.png",
   },
 };
 export const beyondWork = {

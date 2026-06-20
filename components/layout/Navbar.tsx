@@ -7,14 +7,14 @@ import { Moon, Sun, Menu, X, Download } from "lucide-react";
 import { siteConfig } from "@/content/data";
 
 const navLinks = [
-  { label: "About", href: "#about" },
+  { label: "About", href: "/#about" },
   //{ label: "Journey", href: "#journey" },
-  { label: "Experience", href: "#experience" },
-  { label: "Creator", href: "#creator" },
-  { label: "Gallery", href: "#gallery" },
-  { label: "Blog", href: "/blog" },
-  { label: "Work", href: "#work-with-me" },
-  { label: "Contact", href: "#contact" },
+  { label: "Experience", href: "/#experience" },
+  { label: "Creator", href: "/#creator" },
+  { label: "Gallery", href: "/#gallery" },
+  { label: "Blog", href: "/#blog" },
+  { label: "Work", href: "/#work-with-me" },
+  { label: "Contact", href: "/#contact" },
 ];
 
 export function Navbar() {
