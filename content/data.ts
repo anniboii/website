@@ -354,7 +354,7 @@ export const galleryImages: Array<{
   category: string;
   span?: "wide" | "tall" | "normal";
 }> = [
-    { src: "/images/gallery/memento.jpg", alt: "SARC Event", category: "IIT Bombay", span: "normal" },
+    { src: "/images/gallery/memento.JPG", alt: "SARC Event", category: "IIT Bombay", span: "normal" },
     { src: "/images/gallery/doolla.jpeg", alt: "Grad", category: "IIT Bombay" },
   { src: "/images/gallery/shadowfax.jpeg", alt: "Intern", category: "Internships", span: "wide" },
     { src: "/images/gallery/acr.jpeg", alt: "SARC Event", category: "IIT Bombay", span: "normal" },
@@ -367,7 +367,7 @@ export const galleryImages: Array<{
     { src: "/images/gallery/teamalumination.JPG", alt: "SARC Event", category: "Extra-Currics" },
     { src: "/images/gallery/andaman.jpeg", alt: "Personal Moment", category: "Personal Moments" },
     { src: "/images/gallery/mic.JPG", alt: "SARC Event", category: "Extra-Currics" },
-    { src: "/images/gallery/alumination.jpg", alt: "SARC Event", category: "Personal Moments", span: "normal"},
+    { src: "/images/gallery/alumination.JPG", alt: "SARC Event", category: "Personal Moments", span: "normal"},
     { src: "/images/gallery/drums1.jpeg", alt: "Personal Moment", category: "Extra-Currics", span: "wide" },
     { src: "/images/gallery/bike.jpeg", alt: "Personal Moment", category: "Extra-Currics", span: "normal" },
     { src: "/images/gallery/gudi.jpeg", alt: "Grad", category: "IIT Bombay", span: "wide" },
