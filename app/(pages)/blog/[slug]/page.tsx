@@ -6,10 +6,14 @@ import { blogPosts } from "@/content/data";
 
 import PlacementSeason from "@/content/blogs/placement-season-iitb";
 import SARC from "@/content/blogs/leading-sarc";
+import DDPResearchJourney from "@/content/blogs/ddp-research-journey";
+import YouTube30K from "@/content/blogs/youtube-30k";
 
 const blogContent: Record<string, React.ComponentType> = {
     "placement-season-iitb": PlacementSeason,
     "leading-sarc": SARC,
+    "ddp-research-journey": DDPResearchJourney,
+    "youtube-30k": YouTube30K,
 };
 
 type Props = {
