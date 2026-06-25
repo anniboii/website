@@ -5,9 +5,11 @@ import { ArrowLeft } from "lucide-react";
 import { blogPosts } from "@/content/data";
 
 import PlacementSeason from "@/content/blogs/placement-season-iitb";
+import SARC from "@/content/blogs/leading-sarc";
 
 const blogContent: Record<string, React.ComponentType> = {
     "placement-season-iitb": PlacementSeason,
+    "leading-sarc": SARC,
 };
 
 type Props = {
