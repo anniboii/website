@@ -51,6 +51,18 @@ const services = [
             "IIT/JEE Mentorship",
         ],
     },
+    {
+        title: "Academics",
+        description:
+            "Can teach maths and all to students from class 7 to 12",
+        items: [
+            "Teaching",
+            "User Research",
+            "Process Optimization",
+            "Business Insights",
+        ],
+    },
+
 ];
 
 export function WorkWithMeSection() {
