@@ -426,6 +426,8 @@ export const resources = [
       { title: "The Hard Thing About Hard Things", author: "Ben Horowitz", description: "On building and leadership in brutal conditions.", affiliateUrl: "#" }, // TODO: Add real affiliate link
       { title: "Atomic Habits", author: "James Clear", description: "The system behind every habit worth keeping.", affiliateUrl: "#" },
       { title: "Zero to One", author: "Peter Thiel", description: "On startups, monopolies, and thinking from first principles.", affiliateUrl: "#" },
+      { title: "The Pyschology of Money", author: "Peter Thiel", description: "On startups, monopolies, and thinking from first principles.", affiliateUrl: "#" },
+      { title: "Getting Dressed and Parking Cars", author: "Ankur Kejriwal", description: "On startups, monopolies, and thinking from first principles.", affiliateUrl: "#" },
     ],
   },
   {
